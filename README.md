@@ -44,4 +44,3 @@ The following would create a toast message centered in an element with the id "e
 
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1dda551969ee89b5e9089bd3f10c8d2e "githalytics.com")](http://githalytics.com/pyuan/cftoaster)
-
