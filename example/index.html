@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CFToaster</title>
+
+<style type="text/css">
+
+	body {
+		font-family: sans-serif;
+	}
+
+</style>
+
+<!-- jQuery, required for cftoaster -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- jQuery cftoaster plugin -->
+<link rel="stylesheet" title="default" type="text/css" href="jquery.cftoaster.1.0.0.css"/>	
+<script type="text/javascript" src="jquery.cftoaster.1.0.0.min.js"></script>
+
+<script type="text/javascript">
+
+	$(function() {
+		
+		//button to show toast message
+		$("#buttonElement").on("click", function(){
+			showToastMessage();
+		});	
+		
+	});	
+	
+	/**
+	 * show the toast message by using the string in the text field
+	 * @param none
+	 */
+	function showToastMessage() 
+	{
+		var message = $("#textField").val();
+		$("body").cftoaster({content: message});
+	}
+
+</script>	
+	
+</head>
+<body>
+	
+	<input id="textField" type="text" style="width: 300px;" value="Type here to form your toast message"/>
+	<br/><br/>
+	
+	<button id="buttonElement">Show Toast Message!</button>
+	
+</body>
+</html> 

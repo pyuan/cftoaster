@@ -1,7 +1,7 @@
 "CFToaster"
 =========
 
-A light-weight jQuery plugin to create a toast message as seen on the android platform.
+A light-weight jQuery plugin to create a toast message as seen on the android platform. See an example [here](http://paulyuan.ca/cftoaster/).
 
 
 ## Required Files
