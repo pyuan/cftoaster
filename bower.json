@@ -1,0 +1,10 @@
+{
+  "name": "cftoaster",
+  "version": "1.0.1",
+  "main": "jquery.cftoaster.1.0.1/",
+  "description": "A light-weight jQuery plugin to create a toast message as seen on the android platform.",
+  "license": "MIT",
+  "dependencies": {
+    "jQuery": "1.5.0"
+  }
+}
